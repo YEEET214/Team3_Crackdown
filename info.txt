@@ -1,1 +1,5 @@
 Information on crackdown website
+
+Developer: Realtime Worlds
+Publisher: Microsoft
+Realeased on: Xbox 360 in 2007
