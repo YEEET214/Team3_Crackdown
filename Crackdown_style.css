@@ -1,7 +1,7 @@
 /* Style sheet */
 
 body {
-    background-image: url("backg.jpeg");
+    background-image: url("backg.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -10,6 +10,6 @@ body {
 
 @media only screen and (max-width: 300px){
     body {
-        background-image: url("backgmobile.jpeg");
+        background-image: url("backgmobile.webp");
     }
 }
