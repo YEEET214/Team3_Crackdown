@@ -8,9 +8,6 @@ nav {
 
 main {
     background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 
@@ -25,11 +22,12 @@ body {
     
 }
 
+
+
 footer {
     position: relative;
-    left: 0;
     bottom: 0;
-    height: 75px;
+    height: 60px;
     width: 100%;
     background-color: rgb(2, 18, 86);
     color: white;
@@ -41,7 +39,5 @@ footer {
     body {
         background-image: url("backgmobile.webp");
     }
-    footer {
-        
-    }
+    
 }
