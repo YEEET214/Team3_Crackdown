@@ -1,5 +1,10 @@
 /* Style sheet */
 
+nav {
+    background-color: rgb(2, 18, 86, 0.3);
+    
+}
+
 body {
     background-image: url("backg.webp");
     background-repeat: no-repeat;
@@ -8,8 +13,22 @@ body {
     
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 75px;
+    width: 100%;
+    background-color: rgb(2, 18, 86);
+    color: white;
+    
+    
+}
+
 @media only screen and (max-width: 300px){
     body {
         background-image: url("backgmobile.webp");
+    }
+    footer {
+        height: 30px;
     }
 }
