@@ -1,11 +1,22 @@
 /* Style sheet */
 
 nav {
-    background-color: rgb(2, 18, 86, 0.3);
+    /* TODO change bg color */
+    background-color: white;
     
 }
 
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+
 body {
+    /* height: 100%; */
     background-image: url("backg.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,7 +25,8 @@ body {
 }
 
 footer {
-    position: absolute;
+    position: relative;
+    left: 0;
     bottom: 0;
     height: 75px;
     width: 100%;
@@ -29,6 +41,6 @@ footer {
         background-image: url("backgmobile.webp");
     }
     footer {
-        height: 30px;
+        
     }
 }
