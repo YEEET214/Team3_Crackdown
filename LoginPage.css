@@ -1,5 +1,11 @@
 /*Using W3Schools tutorial on login pages : https://www.w3schools.com/howto/howto_css_login_form.asp */
 
+/* Centering all conent */
+
+body {
+  align-items: center;
+}
+
 /* Bordered form */
 form {
   background-image: url("backg.jpg");
@@ -18,15 +24,24 @@ form {
   
   /* Full-width inputs */
   input[type=text], input[type=password] {
+    color: white;
     width: 100%;
     padding: 12px 20px;
     margin: 20px 10px;
     display: inline-block;
     border: 2px solid red;
     border-radius: 4px;
-    background-color: azure;
+    background-color: #3456b1;
     box-sizing: border-box;
     text-align: center;
+    opacity: 0.8;
+  }
+
+  /* Adjust style of form input placeholder */
+
+  input::placeholder {
+    color: white;
+    opacity: 1.0;
   }
 
   /* Adjust size of crackdown logo*/
