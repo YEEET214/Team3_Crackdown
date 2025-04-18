@@ -87,25 +87,109 @@
                         <p class="mb-0"><strong>Username:</strong> username</p>
                         <p class="mb-0"><strong>Email:</strong> genericemail@email.com</p>
                         <p class="mb-0"><strong>Join Date:</strong> March 15, 2025</p>
-                        <p class="mb-0"><strong>Account Level:</strong> 1</p>
+                        <p class="mb-0"><strong>Account Level:</strong> 9</p>
                     </div>
                 <img src="account_pic.png" alt="Account Pic" class="rounded-circle border border-info" width="80" height="80"/>
                 </div>
+
+                <!-- skills section -->
+                <div class="mb-4">
+                    <h4>Skills</h4>
+                    <section>
+                            <ul class="list-unstyled">
+                                <li><strong>Agility -</strong> 2/5</li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="5" style="width: 40%"></div>
+                                  </div>
+                                <li><strong>Explosives -</strong> 1/5</li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style="width: 20%"></div>
+                                  </div>
+                                <li><strong>Driving -</strong> 3/5</li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style="width: 60%"></div>
+                                  </div>
+                                <li><strong>Firearms -</strong> 2/5</li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="5" style="width: 40%"></div>
+                                  </div>
+                                <li><strong>Strength -</strong> 1/5</li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style="width: 20%"></div>
+                                  </div>
+                            </ul>
+                      </section>
+                    </div>
         
                 <!-- achievements section -->
                 <div class="mb-4">
-                <h4>Achievements</h4>
-                <ul class="list-unstyled">
-                    <li><i class="bi bi-trophy-fill"></i> list of unlocked achievements</li>
-                </ul>
+                    <h4>Unlocked Achievements</h4>
+                    <section class="collapse" id="achievExpand">
+                      <div class="container py-5 justify-content-center">
+                        <div class="d-flex justify-content-around flex-wrap">
+                          <div class="container text-center">
+                            <div class="row">
+                              <div class="col">
+                                <div class="card text-decoration-none m-2 shadow-lg" style="width: 18rem;">
+                                  <img src="supply_achiev.png" class="card-img-top" alt="Supply">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Take Me To Your Supply Point</h5>
+                                    <p class="card-text">Unlock your first Supply Point</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="card text-decoration-none m-2 shadow-lg" style="width: 18rem;">
+                                  <img src="first_blood_achiev.png" class="card-img-top" alt="First Blood">
+                                  <div class="card-body">
+                                    <h5 class="card-title">First Blood</h5>
+                                    <p class="card-text">Eliminate the first of 21 gang bosses</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="card text-decoration-none m-2 shadow-lg" style="width: 18rem;">
+                                  <img src="intel_achiev.png" class="card-img-top" alt="Intel Master">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Los Muertos Intel Master</h5>
+                                    <p class="card-text">Locate all Los Muertos dossier targets</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="card text-decoration-none m-2 shadow-lg" style="width: 18rem;">
+                                  <img src="brawler_achiev.png" class="card-img-top" alt="Brawler">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Bare-Knuckle Brawler</h5>
+                                    <p class="card-text">Kill 150 gang members with your bare hands (or thrown objects)</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                    <button class="btn btn-primary mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#achievExpand" aria-expanded="false" aria-controls="achievExpand">
+                        Expand/Collapse
+                      </button>
                 </div>
 
                 <!-- recent activity section -->
                 <div class="mb-4">
                 <h4>Recent Activity</h4>
-                <ul class="list-unstyled">
-                    <li>list of recent acticity</li>
-                </ul>
+                <section class="collapse" id="activityExpand">
+                        <ul class="list-unstyled">
+                            <li><strong>Achieved "Bare-Knuckle Brawler" -</strong> 10 mins ago</li>
+                            <li><strong>Leveled up driving skill -</strong> 30 mins ago</li>
+                            <li><strong>Achieved "First Blood" -</strong> 2 hours ago</li>
+                            <li><strong>Eliminated Los Muertos Captain “Juan The Knife” -</strong> 2 hours ago</li>
+                            <li><strong>Discovered the Dockyard Industrial Zone -</strong> 3 hours ago</li>
+                        </ul>
+                  </section>
+                    <button class="btn btn-primary mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#activityExpand" aria-expanded="false" aria-controls="activityExpand">
+                        Expand/Collapse
+                    </button>
                 </div>
             </div>
             </div>
@@ -117,7 +201,6 @@
         <!-- place footer here -->
         <p>© 2007 Microsoft Game Studios</p>
     </footer>
-
 
     <!-- Bootstrap JavaScript Libraries -->
     <script
